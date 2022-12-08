@@ -1,5 +1,5 @@
-import 'package:choose_your_hero/data/entities/HeroEntity.dart';
-import "package:choose_your_hero/data/repositories/HeroRepository.dart";
+import 'package:choose_your_hero/data/entities/hero_entity.dart';
+import 'package:choose_your_hero/data/repositories/hero_repository.dart';
 
 class HeroViewModel {
   List<HeroEntity> getHeroesList() {

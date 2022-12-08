@@ -1,4 +1,4 @@
-import 'package:choose_your_hero/screens/ChoosingScreen.dart';
+import 'package:choose_your_hero/screens/choosing_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {

@@ -1,8 +1,8 @@
-import 'dart:core' as core;
+import 'dart:core';
 
 class HeroEntity {
-  final core.String name;
-  final core.String imagePath;
+  final String name;
+  final String imagePath;
 
   HeroEntity({
     this.name = "",
