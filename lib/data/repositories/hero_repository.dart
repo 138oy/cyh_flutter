@@ -1,21 +1,21 @@
-import 'package:choose_your_hero/data/entities/HeroEntity.dart';
+import 'package:choose_your_hero/data/entities/hero_entity.dart';
 
-const ASSETS_PATH = "assets/images";
+const assetsPath = "assets/images";
 
 class HeroRepository {
   final List<HeroEntity> heroesList = [
-    HeroEntity(name: "Apocalypse", imagePath: "$ASSETS_PATH/apocalypse.jpg"),
+    HeroEntity(name: "Apocalypse", imagePath: "$assetsPath/apocalypse.jpg"),
     HeroEntity(
-        name: "Captain America", imagePath: "$ASSETS_PATH/captainamerica.jpg"),
-    HeroEntity(name: "Deadpool", imagePath: "$ASSETS_PATH/deadpool.jpg"),
-    HeroEntity(name: "Iron Man", imagePath: "$ASSETS_PATH/ironman.jpg"),
-    HeroEntity(name: "Nebula", imagePath: "$ASSETS_PATH/nebula.jpg"),
-    HeroEntity(name: "Peggy Carter", imagePath: "$ASSETS_PATH/peggycarter.jpg"),
+        name: "Captain America", imagePath: "$assetsPath/captainamerica.jpg"),
+    HeroEntity(name: "Deadpool", imagePath: "$assetsPath/deadpool.jpg"),
+    HeroEntity(name: "Iron Man", imagePath: "$assetsPath/ironman.jpg"),
+    HeroEntity(name: "Nebula", imagePath: "$assetsPath/nebula.jpg"),
+    HeroEntity(name: "Peggy Carter", imagePath: "$assetsPath/peggycarter.jpg"),
     HeroEntity(
-        name: "Scarlet Witch", imagePath: "$ASSETS_PATH/scarletwitch.jpg"),
-    HeroEntity(name: "Sif", imagePath: "$ASSETS_PATH/sif.jpg"),
-    HeroEntity(name: "Spiderman", imagePath: "$ASSETS_PATH/spiderman.jpg"),
-    HeroEntity(name: "Storm", imagePath: "$ASSETS_PATH/storm.jpg")
+        name: "Scarlet Witch", imagePath: "$assetsPath/scarletwitch.jpg"),
+    HeroEntity(name: "Sif", imagePath: "$assetsPath/sif.jpg"),
+    HeroEntity(name: "Spiderman", imagePath: "$assetsPath/spiderman.jpg"),
+    HeroEntity(name: "Storm", imagePath: "$assetsPath/storm.jpg")
   ];
 
   List<HeroEntity> getHeroesList() {

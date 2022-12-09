@@ -1,6 +1,6 @@
-import 'package:choose_your_hero/data/entities/HeroEntity.dart';
-import 'package:choose_your_hero/data/viewmodels/HeroViewModel.dart';
-import 'package:choose_your_hero/widgets/HeroCard.dart';
+import 'package:choose_your_hero/data/entities/hero_entity.dart';
+import 'package:choose_your_hero/data/viewmodels/hero_viewmodel.dart';
+import 'package:choose_your_hero/widgets/hero_card.dart';
 import 'package:flutter/material.dart';
 
 class ChoosingScreen extends StatelessWidget {
@@ -26,7 +26,7 @@ class ChoosingScreen extends StatelessWidget {
                       color: Colors.white,
                       fontSize: 30,
                       fontWeight: FontWeight.bold))),
-          Container(
+          SizedBox(
               height: 500,
               child: PageView(
                 controller: controller,

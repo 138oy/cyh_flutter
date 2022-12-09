@@ -1,7 +1,5 @@
 import 'dart:core';
-
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class HeroCard extends StatelessWidget {
   final String name;
